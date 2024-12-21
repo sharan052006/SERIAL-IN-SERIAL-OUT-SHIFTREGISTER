@@ -66,7 +66,15 @@ if (rst==1'b1)
 ![ex-10-d](https://github.com/user-attachments/assets/7e3e00c1-8ae7-499e-9583-642f350b56a9)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
+
+
+
+
 ![ex-10-w](https://github.com/user-attachments/assets/e1c108c9-847d-4787-9e5b-e62bbb68447e)
+
+
+
+
 
 **RESULTS**
 SISO Shift Register is implimented and their functionality is verified
