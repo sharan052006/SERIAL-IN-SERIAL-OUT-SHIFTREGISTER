@@ -70,7 +70,8 @@ if (rst==1'b1)
 
 
 
-![ex-10-w](https://github.com/user-attachments/assets/e1c108c9-847d-4787-9e5b-e62bbb68447e)
+![Screenshot (88)](https://github.com/user-attachments/assets/b83afbf4-9ba5-4fac-b662-2314acc0d294)
+
 
 
 
