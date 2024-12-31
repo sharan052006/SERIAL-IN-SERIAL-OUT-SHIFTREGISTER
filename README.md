@@ -34,42 +34,38 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 Developed by:sharan I 
 RegisterNumber: 24010956
 ```
-module ex10(a, b, clk, rst, acc); 
-input [7:0] a; 
-input [7:0] b; 
-input clk; 
-input rst; 
-output [15:0] acc; 
-reg [15:0] acc; 
-reg [15:0] pd; 
-reg [15:0] adder; 
-always @ (posedge(clk) or posedge(rst)) 
-begin 
-if (rst==1'b1) 
+module serailinout(din, clk, rst, dout); 
+    input din; 
+    input clk; 
+    input rst; 
+    output dout; 
+  reg dout; 
+  reg [7:0]x; 
+  always @ (posedge(clk) or posedge(rst)) begin 
+  if (rst==1'b1) 
   begin 
-  adder=8'b00000000; 
+  dout=8'hzz; 
   end 
   else 
   begin 
-  pd=a*b; 
-  adder=adder+pd; 
+  x={x[6:0],din}; 
+  dout=x[7]; 
   end 
-  acc=adder; 
   end 
-  endmodule
+  endmodule 
 ```
 
 
 */
 
 **RTL LOGIC FOR SISO Shift Register**
-![ex-6-d](https://github.com/user-attachments/assets/90faf56f-227d-4fbf-957e-a3fcb7a7a007)
+![serial 1](https://github.com/user-attachments/assets/33d51168-670f-43a3-ae45-878b3c552b3e)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
 
 
 
-![Screenshot (84)](https://github.com/user-attachments/assets/a465dd92-75dd-43c0-97de-4c8ad950ca20)
+![serial 1 1](https://github.com/user-attachments/assets/0ab19566-6ed7-4e2f-82d6-eb404841f97b)
 
 
 
