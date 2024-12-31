@@ -63,14 +63,13 @@ if (rst==1'b1)
 */
 
 **RTL LOGIC FOR SISO Shift Register**
-![ex-10-d](https://github.com/user-attachments/assets/7e3e00c1-8ae7-499e-9583-642f350b56a9)
+![ex-6-d](https://github.com/user-attachments/assets/90faf56f-227d-4fbf-957e-a3fcb7a7a007)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
 
 
 
-
-![Screenshot (88)](https://github.com/user-attachments/assets/b83afbf4-9ba5-4fac-b662-2314acc0d294)
+![Screenshot (84)](https://github.com/user-attachments/assets/a465dd92-75dd-43c0-97de-4c8ad950ca20)
 
 
 
